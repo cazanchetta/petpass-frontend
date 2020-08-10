@@ -2,15 +2,19 @@
 PetPass é uma aplicação que permite adquirir planos de serviços para Pets, similar ao GymPass.
 
 A aplicação https://github.com/cazanchetta/petpass-frontend permite que um plano seja adquirido.
+
 Já a aplicação https://github.com/vhugoro/PetPass é responsável por toda a parte de operação e gerenciamento dos clientes, estabelecimentos e planos, além de permitir a geração de cobrança.
 
 Quando um cliente cadastrado adquire um plano, uma cobrança é gerada e postada em uma fila do RabbitMQ, que por sua vez é lida e uma mensagem é postada no canal do Slack do projeto.
 
 ## Integrantes do grupo:
-335232 CARLOS EDUARDO ZANCHETTA
-336295 THIAGO SILVA VEIGA
-335798 VICTOR HUGO RODRIGUES DE OLIVEIRA
-335826 WELLINGTON RODRIGO NONATO
+335232 - CARLOS EDUARDO ZANCHETTA.
+
+336295 - THIAGO SILVA VEIGA.
+
+335798 - VICTOR HUGO RODRIGUES DE OLIVEIRA.
+
+335826 - WELLINGTON RODRIGO NONATO.
 
 ------------------------------------------------------------------------------------
 
